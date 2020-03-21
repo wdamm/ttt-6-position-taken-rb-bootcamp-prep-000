@@ -7,7 +7,9 @@ end
   if board[index] = "O"
   return true
 end
-  
+  if board[index] = " "
+  return false
+end
   
   
 end
